@@ -26,6 +26,7 @@ export PATH="$PATH:$PYTHON_BIN_PATH"
 
 alias gcb="git branch | grep -v "main" | xargs git branch -D"
 alias gpom="git pull origin main"
+alias gpo="git pull origin"
 alias gcm="git checkout main"
 alias gcv="git checkout dev"
 alias c="clear"
